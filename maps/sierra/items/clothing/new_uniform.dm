@@ -509,6 +509,14 @@
 	name = "White jacket"
 	icon_state = "eng_bomber_white"
 
+/*obj/item/clothing/suit/storage/toggle/terrycloth
+	icon = 'mods/oceanhotel/icons/hotelclothes_icon.dmi'
+	icon_state = "bathrobe"
+	item_icons = list (slot_wear_suit_str ='mods/oceanhotel/icons/hotelclothes.dmi')
+	name = "terrycloth robe"
+	desc = "Branded Thalassa Resort terrycloth robe."
+	item_state = "bathrobe" */
+
 
 /obj/item/clothing/suit/storage/toggle/new_suit/leather_fur_jacket
 	name = "leather fur jacket"

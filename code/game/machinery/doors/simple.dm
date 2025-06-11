@@ -40,7 +40,7 @@
 		set_opacity(0)
 	update_icon()
 
-/obj/machinery/door/unpowered/simple/c_airblock(turf/other)
+//obj/machinery/door/unpowered/simple/c_airblock(turf/other)
 	return FALSE
 
 /obj/machinery/door/unpowered/simple/requiresID()
