@@ -29,7 +29,7 @@
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "pillow"
 	w_class = ITEM_SIZE_HUGE
-	atom_flags = ATOM_FLAG_CLIMBABLE
+	obj_flags = OBJ_FLAG_ROTATABLE
 
 /obj/item/hotelbarstool
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
@@ -40,7 +40,7 @@
 //деревья
 
 /obj/structure/flora/ausbush/oceanhotel/tree1
-	name = "Tropical plant"
+	name = "tropical plant"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_96.dmi'
 	icon_state = "hoteltree12"
 	anchored = TRUE
@@ -48,7 +48,7 @@
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/tree2
-	name = "Tropical plant"
+	name = "tropical plant"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_96.dmi'
 	icon_state = "hoteltree13"
 	anchored = TRUE
@@ -56,7 +56,7 @@
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/tree3
-	name = "Tropical plant"
+	name = "tropical plant"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_64.dmi'
 	icon_state = "hoteltree1"
 	anchored = TRUE
@@ -64,7 +64,7 @@
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/tree4
-	name = "Tropical plant"
+	name = "tropical plant"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_64.dmi'
 	icon_state = "hoteltree2"
 	anchored = TRUE
@@ -72,7 +72,7 @@
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/tree5
-	name = "Tropical plant"
+	name = "tropical plant"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_64.dmi'
 	icon_state = "hoteltree3"
 	anchored = TRUE
@@ -80,7 +80,7 @@
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/tree6
-	name = "Tropical plant"
+	name = "tropical plant"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_64.dmi'
 	icon_state = "hoteltree4"
 	anchored = TRUE
@@ -88,7 +88,7 @@
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/tree7
-	name = "Tropical plant"
+	name = "tropical plant"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_64.dmi'
 	icon_state = "hoteltree5"
 	anchored = TRUE
@@ -96,7 +96,7 @@
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/tree8
-	name = "Tropical plant"
+	name = "tropical plant"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_64.dmi'
 	icon_state = "hoteltree6"
 	anchored = TRUE
@@ -104,7 +104,7 @@
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/tree9
-	name = "Tropical plant"
+	name = "tropical plant"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_64.dmi'
 	icon_state = "hoteltree7"
 	anchored = TRUE
@@ -112,7 +112,7 @@
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/tree10
-	name = "Tropical plant"
+	name = "tropical plant"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_64.dmi'
 	icon_state = "hoteltree8"
 	anchored = TRUE
@@ -120,7 +120,7 @@
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/tree11
-	name = "Tropical plant"
+	name = "tropical plant"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_64.dmi'
 	icon_state = "hoteltree9"
 	anchored = TRUE
@@ -128,7 +128,7 @@
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/tree12
-	name = "Tropical plant"
+	name = "tropical plant"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_48.dmi'
 	icon_state = "hoteltree10"
 	anchored = TRUE
@@ -136,7 +136,7 @@
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/tree13
-	name = "Tropical plant"
+	name = "tropical plant"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_48.dmi'
 	icon_state = "hoteltree11"
 	anchored = TRUE
@@ -144,7 +144,7 @@
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/tree14
-	name = "Tropical plant"
+	name = "tropical plant"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_64.dmi'
 	icon_state = "hoteltree13"
 	anchored = TRUE
@@ -152,71 +152,81 @@
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/bush
-	name = "Tropical bush"
+	name = "tropical bush"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "hotelbush1"
 	anchored = TRUE
 
 /obj/structure/flora/ausbush/oceanhotel/bush2
-	name = "Tropical bush"
+	name = "tropical bush"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "hotelbush2"
 	anchored = TRUE
 
 /obj/structure/flora/ausbush/oceanhotel/bush3
-	name = "Tropical bush"
+	name = "tropical bush"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "hotelbush3"
 	anchored = TRUE
 
 /obj/structure/flora/ausbush/oceanhotel/bush4
-	name = "Tropical bush"
+	name = "tropical bush"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "hotelbush4"
 	anchored = TRUE
 
 /obj/structure/flora/ausbush/oceanhotel/bush5
-	name = "Tropical bush"
+	name = "tropical bush"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "hotelbush5"
 	anchored = TRUE
+	layer = STRUCTURE_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/bush6
-	name = "Tropical bush"
+	name = "tropical bush"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "hotelbush6"
 	anchored = TRUE
+	layer = STRUCTURE_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/bush7
-	name = "Tropical bush"
+	name = "tropical bush"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "hotelbush7"
 	anchored = TRUE
+	layer = STRUCTURE_LAYER
 
 /obj/structure/flora/ausbush/oceanhotel/bush8
-	name = "Tropical bush"
+	name = "tropical bush"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "hotelbush8"
 	anchored = TRUE
 
 /obj/structure/flora/ausbush/oceanhotel/bush9
-	name = "Tropical bush"
+	name = "tropical bush"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "hotelbush9"
 	anchored = TRUE
 
-
 /obj/structure/flora/ausbush/oceanhotel/bush10
-	name = "Tropical bush"
+	name = "tropical bush"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "hotelbush10"
 	anchored = TRUE
 
 /obj/structure/flora/ausbush/oceanhotel/bush11
-	name = "Tropical bush"
+	name = "tropical bush"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "hotelbush11"
 	anchored = TRUE
+
+/obj/structure/fountain/parrotsseat
+	name = "tropical tree"
+	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
+	icon_state = "parrotsseat"
+	anchored = TRUE
+	desc = "tropical tree"
+	density = FALSE
 
 
 //пол
@@ -389,17 +399,17 @@
 	layer = ABOVE_HUMAN_LAYER
 
 
-//барахло
+//пляжное
 
 /obj/item/toy/seashell1
-	name = "seashell"
+	name = "conch"
 	icon =  'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "shell1"
 	item_state = "shell1"
 	w_class = ITEM_SIZE_TINY
 
 /obj/item/toy/seashell2
-	name = "conch"
+	name = "seashell"
 	icon =  'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "shell2"
 	item_state = "shell2"
@@ -412,7 +422,24 @@
 	item_state = "starfish"
 	w_class = ITEM_SIZE_TINY
 
-//пляжное
+/obj/item/pearl
+	name = "finest pearl"
+	desc = "A large dew-drop pearl. Magnificent."
+	icon =  'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
+	icon_state = "pearl"
+	item_state = "pearl"
+	w_class = ITEM_SIZE_TINY
+
+/obj/item/storage/seashellpearl
+	icon =  'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
+	name = "slightly open shell"
+	desc = "It seems that it can be opened."
+	icon_state = "shellpearl"
+	item_state = "shellpearl"
+	w_class = ITEM_SIZE_SMALL
+	max_w_class = ITEM_SIZE_TINY
+	max_storage_space = 1
+	contents_allowed = list(/obj/item/pearl)
 
 /obj/item/flame/candle/fireplace
 	name = "fireplace"
@@ -433,7 +460,17 @@
 	anchored = TRUE
 	layer = ABOVE_HUMAN_LAYER
 
-/obj/item/device/flashlight/slime/hotellantern
+/obj/item/beach_ball
+	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
+	icon_state = "ball"
+
+/obj/item/inflatable_duck
+	icon_state = "inflatable"
+	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
+	slot_flags = SLOT_BELT
+
+
+/obj/item/device/flashlight/slime/hotellantern //фонари-столбики
 	name = "lantern"
 	desc = "hm-m-m...lantern"
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
@@ -445,7 +482,7 @@
 	light_range = 2
 	light_color = "#ffdc97"
 
-/obj/item/storage/box/freezer/hotel
+/obj/item/storage/box/freezer/hotel // микрохолодос
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
 	icon_state = "freezer"
 	item_state = "freezer"
@@ -455,7 +492,6 @@
 /obj/item/light/bulb/hotel
 	b_power = 4
 	b_range = 100
-
 
 /obj/machinery/light/small/bulb/hotel
 	icon_state = "bulb_map"
@@ -501,6 +537,7 @@
 	desc = "It shines with an eerie bioluminescent light."
 	icon_state = "glowplant1"
 	density = TRUE
+	anchored = TRUE
 
 /obj/structure/flora/glowplant/Initialize()
 	. = ..()
