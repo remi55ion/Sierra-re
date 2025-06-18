@@ -17,6 +17,8 @@
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_48.dmi'
 	icon_state = "bedsheet_double"
 	item_state = "bedsheet_double"
+	slot_flags = SLOT_BACK
+	item_icons = list(slot_back_str = 'mods/oceanhotel/icons/hotelclothes.dmi')
 
 /obj/item/bedsheet/double/green
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_48.dmi'
@@ -388,6 +390,9 @@
 /obj/machinery/vending/boozeomat/hotel
 	req_access = list()
 
+/obj/machinery/vending/wallbartender/hotel
+	req_access = list()
+
 //шаттл
 /obj/structure/hotelshuttle
 	name = "Transfer shuttle."
@@ -559,3 +564,36 @@
 	icon_state = "spring"
 	anchored = TRUE
 	density = TRUE
+
+/obj/structure/sign/hotel/hotspring
+	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
+	name = "Hot springs."
+	desc = "SPA. Hot Springs."
+	icon_state = "hotspring"
+
+/obj/structure/sign/hotel/hotspring
+	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
+	name = "Hot springs."
+	desc = "SPA. Hot Springs."
+	icon_state = "hotspring"
+
+/*mob/living/simple_animal/friendly/firefly
+	name = "firefly"
+	desc = "Little lightning bugs are like fairies."
+	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_32.dmi'
+	icon_state = "firefly"
+	icon_living = "firefly"
+	icon_dead = "fireflydead"
+	response_help  = "pets"
+	response_disarm = "trying to catch"
+	response_harm   = "trying to catch"
+	turns_per_move = 1
+	maxHealth = 100
+	health = 100
+	density = FALSE
+	ai_holder = /datum/ai_holder/simple_animal/passive
+
+/mob/living/simple_animal/friendly/firefly/Initialize()
+	. = ..()
+	set_light (2, 0.8,"#fff7c5")
+	icon_state = "firefly" */
