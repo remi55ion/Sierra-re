@@ -8,7 +8,7 @@
 
 /obj/structure/doublebed
 	name = "great double bed"
-	desc = "Big, soft bed."
+	desc = "Big soft bed."
 	icon = 'mods/oceanhotel/icons/oceanhotel_sprite_48.dmi'
 	icon_state = "double"
 	anchored = TRUE
@@ -288,9 +288,20 @@
 /obj/item/clothing/under/hotel/swimsuitblack
 	icon = 'mods/oceanhotel/icons/hotelclothes_icon.dmi'
 	item_icons = list(slot_w_uniform_str ='mods/oceanhotel/icons/hotelclothes.dmi')
-	name = "black swimsuit"
+	name = "swimsuit"
 	icon_state = "swimsuitblack"
 	item_state = "swimsuitblack"
+
+/obj/item/clothing/under/hotel/bathingshorts
+	icon = 'mods/oceanhotel/icons/hotelclothes_icon.dmi'
+	item_icons = list(slot_w_uniform_str ='mods/oceanhotel/icons/hotelclothes.dmi')
+	name = "bathing shorts"
+	icon_state = "bathingshorts"
+	item_state = "bathingshorts"
+
+/obj/item/clothing/under/hotel/bathingshorts/blue
+	icon_state = "bathingshorts_blue"
+	item_state = "bathingshorts_blue"
 
 /obj/item/clothing/under/hotel/bermuds2
 	icon = 'mods/oceanhotel/icons/hotelclothes_icon.dmi'
@@ -326,7 +337,7 @@
 	item_icons = list (slot_wear_suit_str ='mods/oceanhotel/icons/hotelclothes.dmi')
 	name = "silk shawl"
 
-/obj/item/clothing/suit/hotel/summershirt
+/obj/item/clothing/suit/storage/hotel/summershirt
 	icon = 'mods/oceanhotel/icons/hotelclothes_icon.dmi'
 	item_icons = list (slot_wear_suit_str ='mods/oceanhotel/icons/hotelclothes.dmi')
 	name = "linen loose shirt"
@@ -446,10 +457,16 @@
 	max_storage_space = 1
 	contents_allowed = list(/obj/item/pearl)
 
+/obj/item/storage/seashellpearl/full/New()
+	..()
+	new /obj/item/pearl(src)
+
+
 /obj/item/flame/candle/fireplace
 	name = "fireplace"
 	desc = "A cozy campfire."
 	icon = 'mods/oceanhotel/icons/fireplace.dmi'
+	available_colours = COLOR_WHITE
 	icon_state = "candle1"
 	item_state = "candle1"
 	light_color = "#ffc369"

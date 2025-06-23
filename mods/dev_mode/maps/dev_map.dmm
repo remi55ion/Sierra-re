@@ -3,8 +3,43 @@
 /obj/item/artefact/svetlyak,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/liberia/atmos)
+"aDC" = (
+/obj/floor_decal/corner/mauve/bordercorner,
+/obj/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/centcom)
+"aFU" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/centcom)
+"bbk" = (
+/obj/paint_stripe/yellow{
+	color = "#186318"
+	},
+/obj/paint/dark_gunmetal{
+	color = "#f5f5f5"
+	},
+/turf/simulated/wall/r_titanium,
+/area/centcom)
+"cdr" = (
+/obj/structure/table/steel,
+/obj/item/device/multitool/uplink,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
 "cpC" = (
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"cCa" = (
+/obj/structure/table/steel,
+/obj/item/device/scanner/gas,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"cNB" = (
+/obj/floor_decal/corner/mauve/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
 /area/centcom)
 "cPZ" = (
 /obj/item/gun/projectile/automatic,
@@ -17,11 +52,19 @@
 /obj/titan_fluid,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"dHZ" = (
+/obj/item/tank/oxygen/onetankbomb,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
 "dRf" = (
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/liberia/atmos)
 "dSB" = (
 /turf/simulated/floor/exoplanet/titan_water/minimal,
+/area/centcom)
+"esY" = (
+/obj/landmark/test/safe_turf,
+/turf/simulated/floor/tiled/techfloor,
 /area/centcom)
 "eDA" = (
 /obj/random/biggun,
@@ -31,37 +74,181 @@
 /obj/item/gun/projectile/automatic/minigun,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"fjL" = (
+/obj/machinery/light{
+	dir = 4;
+	color = "#824e82"
+	},
+/obj/structure/bed/sofa/m/purple,
+/obj/floor_decal/corner/mauve/border{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/centcom)
 "fkK" = (
 /obj/item/gun/energy/sniperrifle,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"fmE" = (
+/obj/structure/bed/sofa/m/purple,
+/obj/floor_decal/corner/mauve/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/centcom)
+"fAg" = (
+/obj/structure/bed/sofa/l/purple,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/centcom)
+"fTO" = (
+/obj/landmark{
+	name = "Observer-Start"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/centcom)
 "geK" = (
 /obj/item/gun/magnetic/railgun/tcc,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"gkH" = (
+/obj/wingrille_spawn/reinforced/polarized/full{
+	id = "tint_shut"
+	},
+/obj/machinery/door/blast/regular/open,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"gGL" = (
+/turf/simulated/floor/grass,
+/area/space)
+"hBa" = (
+/obj/paint_stripe/yellow{
+	color = "#186318"
+	},
+/obj/paint/dark_gunmetal{
+	color = "#f5f5f5"
+	},
+/obj/paint/dark_gunmetal{
+	color = "#f5f5f5"
+	},
+/turf/simulated/wall/r_titanium,
+/area/centcom)
+"ikv" = (
+/obj/machinery/dummy_airlock_controller{
+	dir = 4;
+	pixel_x = -22
+	},
+/obj/machinery/light{
+	color = "#824e82"
+	},
+/obj/structure/handrail{
+	dir = 4
+	},
+/obj/floor_decal/corner/mauve/border{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/centcom)
+"iwf" = (
+/obj/machinery/door/blast/regular/open,
+/obj/wingrille_spawn/reinforced/polarized/full{
+	id = "tint_shut"
+	},
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"iKN" = (
+/obj/floor_decal/corner/mauve/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/centcom)
 "jjy" = (
 /obj/item/artefact/svetlyak,
 /turf/simulated/floor/exoplanet/titan_water/middle,
 /area/liberia/atmos)
+"jrm" = (
+/obj/structure/table/steel,
+/obj/item/device/multitool/multimeter,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
 "jDb" = (
 /obj/item/gun/projectile/automatic/nt41,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"kjU" = (
+/obj/item/target/syndicate,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"ksm" = (
+/obj/structure/table/steel,
+/obj/item/storage/toolbox/syndicate,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"kvx" = (
+/obj/machinery/light{
+	dir = 8;
+	color = "#824e82"
+	},
+/obj/structure/bed/sofa/r/purple,
+/obj/structure/bed/sofa/r/purple,
+/obj/floor_decal/corner/mauve/border{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/centcom)
 "kSl" = (
 /obj/item/gun/projectile/heavysniper/ant,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"kSy" = (
+/obj/machinery/computer/ship/helm{
+	dir = 1
+	},
+/obj/floor_decal/corner/mauve/border{
+	dir = 10
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/centcom)
+"kTv" = (
+/obj/structure/stairs/north,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"kVF" = (
+/obj/structure/table/steel,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/electrical{
+	pixel_y = 10
+	},
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
 "ldi" = (
 /obj/item/gun/projectile/automatic/bullpup_rifle/light,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"lhH" = (
+/obj/paint_stripe/yellow{
+	color = "#186318"
+	},
+/obj/paint_stripe/yellow{
+	color = "#186318"
+	},
+/obj/paint/dark_gunmetal{
+	color = "#f5f5f5"
+	},
+/turf/simulated/wall/r_titanium,
+/area/centcom)
 "lUp" = (
 /obj/item/gun/energy/laser/xenofauna,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
-"mJI" = (
-/mob/living/carbon/human/dummy,
+"msm" = (
+/mob/living/carbon/human/moth,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"mJI" = (
+/turf/simulated/floor/plating,
 /area/centcom)
 "nsq" = (
 /obj/item/gun/projectile/automatic/bullpup_rifle,
@@ -75,14 +262,56 @@
 /obj/item/gun/projectile/automatic/mbr,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"nSR" = (
+/obj/submap_landmark/joinable_submap,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"ocH" = (
+/obj/item/storage/box/syndie_kit/holobombs,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
 "odH" = (
 /turf/simulated/floor/exoplanet/titan_water/middle,
 /area/liberia/atmos)
+"odO" = (
+/obj/structure/table/steel,
+/obj/item/storage/belt/utility/full,
+/obj/item/storage/belt/utility/full,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
 "ooX" = (
-/obj/landmark/no_weather_here{
-	layer = 2
-	},
 /turf/unsimulated/floor/grass,
+/area/centcom)
+"otd" = (
+/obj/structure/bed/sofa/r/purple,
+/obj/structure/bed/sofa/r/purple,
+/obj/floor_decal/corner/mauve/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/centcom)
+"ote" = (
+/obj/floor_decal/corner/mauve/border{
+	dir = 8
+	},
+/obj/machinery/button/windowtint{
+	dir = 4;
+	id = "tint_shut";
+	pixel_x = -24;
+	pixel_y = -6;
+	range = 2;
+	id_tag = "tint_shut"
+	},
+/obj/machinery/button/switch{
+	dir = 4;
+	pixel_x = -24;
+	pixel_y = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/centcom)
+"oWP" = (
+/obj/structure/sign/warning/bomb_range,
+/turf/unsimulated/wall,
 /area/centcom)
 "pnX" = (
 /turf/simulated/floor/exoplanet/titan_water/maximum,
@@ -90,18 +319,29 @@
 "pxw" = (
 /turf/simulated/floor/exoplanet/titan_water/minimal,
 /area/liberia/atmos)
-"pSk" = (
-/obj/landmark{
-	name = "Observer-Start"
-	},
-/obj/landmark/no_weather_here{
-	layer = 2
-	},
-/obj/landmark{
-	name = "JoinLateCryo"
-	},
-/turf/unsimulated/floor/grass,
+"pBh" = (
+/mob/living/carbon/human,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"pSk" = (
+/mob/living/carbon/human/tajaran,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"pWT" = (
+/obj/machinery/computer/ship/sensors{
+	dir = 1
+	},
+/obj/floor_decal/corner/mauve/border{
+	dir = 6
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/centcom)
+"qHO" = (
+/turf/simulated/open,
+/area/space)
 "qMW" = (
 /obj/item/gun/projectile/pistol/m19,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
@@ -114,6 +354,19 @@
 /obj/item/gun/projectile/pistol/magnum_pistol,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"rng" = (
+/obj/machinery/atmospherics/unary/engine,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"rBQ" = (
+/obj/floor_decal/corner/mauve/bordercorner{
+	dir = 8
+	},
+/obj/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/centcom)
 "rJb" = (
 /obj/item/gun/projectile/automatic/sec_smg,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
@@ -122,12 +375,60 @@
 /obj/item/gun/projectile/sniper/semistrip,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"slJ" = (
+/obj/structure/bed/chair/shuttle/blue,
+/obj/floor_decal/corner/mauve/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/centcom)
+"sGe" = (
+/obj/item/tank/phoron/onetankbomb,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
 "sJt" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"ttI" = (
+/obj/machinery/door/airlock/multi_tile/glass{
+	door_color = "#f5f5f5"
+	},
+/obj/floor_decal/corner/mauve/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/centcom)
+"uvH" = (
+/obj/machinery/light{
+	color = "#824e82"
+	},
+/obj/structure/handrail{
+	dir = 8
+	},
+/obj/floor_decal/corner/mauve/border{
+	dir = 6
+	},
+/obj/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/centcom)
 "uzJ" = (
 /turf/unsimulated/wall,
+/area/centcom)
+"uDi" = (
+/mob/living/carbon/human/unathi,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"uHK" = (
+/obj/paint/dark_gunmetal{
+	color = "#f5f5f5"
+	},
+/obj/paint_stripe/yellow{
+	color = "#186318"
+	},
+/turf/simulated/wall/r_titanium,
 /area/centcom)
 "uVd" = (
 /obj/item/clothing/suit/space/void/atmos,
@@ -137,6 +438,29 @@
 /obj/landmark/teleport_to_z_level/skat,
 /turf/simulated/floor/exoplanet/titan_water/maximum,
 /area/centcom)
+"vHL" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/reagent_containers/food/drinks/cans/waterbottle{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/food/drinks/cans/waterbottle{
+	pixel_x = 3;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/food/drinks/cans/waterbottle{
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/food/drinks/cans/waterbottle{
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/obj/floor_decal/corner/mauve/border{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/centcom)
 "vLC" = (
 /obj/item/gun/projectile/automatic/merc_smg,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
@@ -145,20 +469,86 @@
 /obj/item/gun/energy/mindflayer,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"wdZ" = (
+/obj/structure/bed/sofa/l/purple,
+/obj/floor_decal/corner/mauve/bordercorner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/centcom)
+"wpZ" = (
+/turf/simulated/wall,
+/area/space)
+"wzu" = (
+/obj/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/centcom)
+"wSf" = (
+/obj/floor_decal/corner/mauve/bordercorner{
+	dir = 1
+	},
+/obj/item/device/multitool/uplink,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/centcom)
+"wUV" = (
+/mob/living/carbon/human/skrell,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
 "wVg" = (
 /obj/item/gun/energy/laser,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"wVE" = (
+/obj/paint/dark_gunmetal,
+/obj/paint_stripe/yellow{
+	color = "#186318"
+	},
+/obj/machinery/door/airlock/lift{
+	name = "bus door"
+	},
+/turf/simulated/wall/r_titanium,
 /area/centcom)
 "xbv" = (
 /obj/item/clothing/suit/space/void/merc,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/liberia/atmos)
+"xpT" = (
+/obj/item/grenade/smokebomb,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
 "xBf" = (
 /obj/item/gun/energy/lasercannon,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"xWD" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/reagent_containers/food/drinks/cans/sodawater{
+	pixel_x = 8;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/food/drinks/cans/sodawater{
+	pixel_x = -2;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/food/drinks/cans/cola_lemonlime{
+	pixel_x = -2
+	},
+/obj/item/reagent_containers/food/drinks/cans/cola_lemonlime{
+	pixel_x = 8
+	},
+/obj/floor_decal/corner/mauve/border{
+	dir = 5
+	},
+/obj/item/storage/box/snack/candy{
+	pixel_x = -16;
+	pixel_y = 8
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/centcom)
 "ybm" = (
-/obj/landmark/titan_crate,
+/obj/wallframe_spawn,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
 
@@ -205,7 +595,7 @@ cpC
 cpC
 cpC
 cpC
-cpC
+ybm
 cpC
 cpC
 cpC
@@ -232,9 +622,9 @@ cpC
 cpC
 cpC
 ybm
-ybm
-ybm
-ybm
+nSR
+cpC
+cpC
 cpC
 cpC
 cpC
@@ -257,10 +647,10 @@ cpC
 cpC
 cpC
 cpC
-ybm
-ybm
-ybm
-ybm
+cpC
+cpC
+cpC
+cpC
 cpC
 cpC
 cpC
@@ -271,7 +661,7 @@ uzJ
 cpC
 cpC
 cpC
-cpC
+kTv
 cpC
 dRf
 pxw
@@ -283,11 +673,11 @@ dSB
 dSB
 dSB
 dSB
-ybm
-ybm
-ybm
-ybm
 cpC
+cpC
+ooX
+ooX
+ooX
 cpC
 cpC
 uzJ
@@ -297,7 +687,7 @@ uzJ
 cpC
 cpC
 cpC
-cpC
+kTv
 cpC
 dRf
 odH
@@ -310,11 +700,11 @@ djw
 djw
 dSB
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
+ooX
+ooX
+ooX
+ooX
+ooX
 cpC
 uzJ
 "}
@@ -339,8 +729,8 @@ cpC
 ooX
 ooX
 ooX
-cpC
-cpC
+ooX
+ooX
 cpC
 uzJ
 "}
@@ -349,7 +739,7 @@ uzJ
 cpC
 cpC
 cpC
-cpC
+kTv
 cpC
 dRf
 odH
@@ -361,12 +751,12 @@ djw
 djw
 djw
 dSB
-ooX
-ooX
-ooX
-ooX
-ooX
 cpC
+ooX
+ooX
+ooX
+ooX
+ooX
 cpC
 uzJ
 "}
@@ -387,9 +777,9 @@ dSB
 dSB
 dSB
 dSB
+cpC
+cpC
 ooX
-ooX
-pSk
 ooX
 ooX
 cpC
@@ -413,11 +803,11 @@ cpC
 cpC
 cpC
 cpC
-ooX
-ooX
-ooX
-ooX
-ooX
+cpC
+cpC
+cpC
+cpC
+cpC
 cpC
 cpC
 uzJ
@@ -440,9 +830,9 @@ cpC
 cpC
 cpC
 cpC
-ooX
-ooX
-ooX
+cpC
+cpC
+cpC
 cpC
 cpC
 cpC
@@ -491,7 +881,7 @@ dlo
 dlo
 dlo
 cpC
-uzJ
+oWP
 cpC
 cpC
 cpC
@@ -503,20 +893,20 @@ uzJ
 (14,1,1) = {"
 uzJ
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
+rng
+uHK
+bbk
+bbk
+wVE
+uHK
+bbk
+bbk
 cpC
 cpC
 dlo
 dlo
 dlo
-mJI
+cpC
 sJt
 cpC
 fkK
@@ -529,16 +919,16 @@ uzJ
 (15,1,1) = {"
 uzJ
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
+bbk
+bbk
+kvx
+otd
+cNB
+ikv
+bbk
+lhH
+bbk
+bbk
 cpC
 cpC
 cpC
@@ -555,21 +945,21 @@ uzJ
 (16,1,1) = {"
 uzJ
 cpC
+bbk
+vHL
+wSf
+fTO
+wzu
+rBQ
+ttI
+ote
+kSy
+iwf
 cpC
 cpC
 cpC
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-mJI
-cpC
-sJt
+jrm
 cpC
 nuF
 ldi
@@ -581,21 +971,21 @@ uzJ
 (17,1,1) = {"
 uzJ
 cpC
+bbk
+xWD
+wdZ
+fAg
+fAg
+aDC
+iKN
+slJ
+pWT
+gkH
 cpC
 cpC
 cpC
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-mJI
-cpC
-cpC
-sJt
+cdr
 cpC
 cpC
 cpC
@@ -607,16 +997,16 @@ uzJ
 (18,1,1) = {"
 uzJ
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
+bbk
+bbk
+fjL
+fmE
+fmE
+uvH
+bbk
+bbk
+bbk
+bbk
 cpC
 cpC
 cpC
@@ -633,21 +1023,21 @@ uzJ
 (19,1,1) = {"
 uzJ
 cpC
+rng
+hBa
+bbk
+gkH
+gkH
+bbk
+bbk
+bbk
 cpC
 cpC
 cpC
 cpC
 cpC
 cpC
-cpC
-cpC
-cpC
-cpC
-mJI
-cpC
-cpC
-cpC
-sJt
+cCa
 cpC
 cpC
 cpC
@@ -668,12 +1058,12 @@ cpC
 cpC
 cpC
 cpC
-mJI
 cpC
 cpC
 cpC
 cpC
-sJt
+cpC
+odO
 cpC
 eDA
 sao
@@ -685,19 +1075,19 @@ uzJ
 (21,1,1) = {"
 uzJ
 cpC
+aFU
+esY
+aFU
+aFU
+aFU
+aFU
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
+mJI
+mJI
+mJI
+mJI
+mJI
+mJI
 cpC
 uzJ
 cpC
@@ -711,101 +1101,101 @@ uzJ
 (22,1,1) = {"
 uzJ
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
+aFU
+aFU
+aFU
+esY
+esY
+aFU
 cpC
 mJI
+mJI
+mJI
+mJI
+mJI
+mJI
 cpC
+kVF
 cpC
-cpC
-cpC
-cpC
-sJt
-cpC
-cpC
-cpC
-cpC
-cpC
+sGe
+dHZ
+ocH
+xpT
 cpC
 uzJ
 "}
 (23,1,1) = {"
 uzJ
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
+aFU
+aFU
+esY
+aFU
+esY
+aFU
 cpC
 mJI
+mJI
+mJI
+mJI
+mJI
+mJI
 cpC
+ksm
 cpC
-cpC
-cpC
-cpC
-cpC
-sJt
-cpC
-cpC
-cpC
-cpC
-cpC
+kjU
+kjU
+kjU
+kjU
 cpC
 uzJ
 "}
 (24,1,1) = {"
 uzJ
 cpC
+aFU
+aFU
+aFU
+aFU
+aFU
+aFU
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
+mJI
+mJI
+mJI
+mJI
+mJI
+mJI
 cpC
 uzJ
 cpC
-cpC
-cpC
-cpC
-cpC
+pBh
+msm
+wUV
+uDi
 cpC
 uzJ
 "}
 (25,1,1) = {"
 uzJ
 cpC
+aFU
+aFU
+aFU
+aFU
+aFU
+aFU
+cpC
+mJI
+mJI
+mJI
+mJI
+mJI
+mJI
 cpC
 cpC
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
+pSk
 cpC
 cpC
 cpC
@@ -825,16 +1215,16 @@ cpC
 cpC
 cpC
 cpC
-cpC
-cpC
-cpC
-cpC
+kjU
+kjU
+kjU
+kjU
 uzJ
 cpC
-cpC
-cpC
-cpC
-cpC
+kjU
+kjU
+kjU
+kjU
 cpC
 uzJ
 "}
@@ -863,4 +1253,707 @@ uzJ
 uzJ
 uzJ
 uzJ
+"}
+
+(1,1,2) = {"
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+"}
+(2,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(3,1,2) = {"
+wpZ
+gGL
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(4,1,2) = {"
+wpZ
+gGL
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(5,1,2) = {"
+wpZ
+gGL
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(6,1,2) = {"
+wpZ
+gGL
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(7,1,2) = {"
+wpZ
+gGL
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(8,1,2) = {"
+wpZ
+gGL
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(9,1,2) = {"
+wpZ
+gGL
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(10,1,2) = {"
+wpZ
+gGL
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+qHO
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(11,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(12,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(13,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(14,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(15,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(16,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(17,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(18,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(19,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(20,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(21,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(22,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(23,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(24,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(25,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(26,1,2) = {"
+wpZ
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+gGL
+wpZ
+"}
+(27,1,2) = {"
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
+wpZ
 "}

@@ -1,13 +1,14 @@
 //#include "maps/oceanhotelZ2.dmm"
 //#include "maps/oceanhotelZ1.dmm"
-#include "maps/oceanhotel_onelvl.dmm"
+//#include "maps/oceanhotel_onelvl.dmm"
+#include "maps/oceanhotel_twolvl.dmm"
 
 /datum/map_template/ruin/exoplanet/oceanhotel
 	name = "Thalassa Hotel"
 	id = "oceanhotel"
 	description = "The quiet corner of the world."
 	//suffixes = list("'mods/oceanhotel/maps/oceanhotelZ1.dmm", "maps/oceanhotelZ2.dmm")
-	mappaths = list("mods/oceanhotel/maps/oceanhotel_onelvl.dmm")
+	mappaths = list("mods/oceanhotel/maps/oceanhotel_twolvl.dmm")
 	spawn_cost = 10
 	player_cost = 0
 	template_flags = TEMPLATE_FLAG_CLEAR_CONTENTS | TEMPLATE_FLAG_NO_RUINS | TEMPLATE_FLAG_NO_RADS

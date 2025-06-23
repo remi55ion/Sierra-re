@@ -1,17 +1,22 @@
-/datum/map/dev
-	name = "\improper dev"
-	full_name = "\improper dev map"
+#include "maps/oceanhotel_z1-z2.dmm"
+
+/datum/map/oceanhotel
+	name = "\improper oceanhotel"
+	full_name = "\improper oceanhotel Z1-Z2"
 	config_path = "config/sierra_config.txt"
 	flags = MAP_HAS_BRANCH | MAP_HAS_RANK
 	welcome_sound = ANNOUNCER_WELCOME
 	use_bluespace_interlude = TRUE
 	load_legacy_saves = TRUE
-	station_levels = list(1,2)
-	player_levels = list(1,2)
-	accessible_z_levels = list("1"=1,"2"=1)
+
+	admin_levels = list()
+	station_levels = list(1,2,3,4)
+	contact_levels = list(1,2,3,4)
+	player_levels = list(1,2,3,4)
+	accessible_z_levels = list("1"=1,"2"=1,"3"=1,"4"=1)
 	overmap_size = 40
 	overmap_event_areas = 34
-	allowed_spawns = list("Cryogenic Storage", "Cyborg Storage")
+	allowed_spawns = list("Cryogenic Storage")
 	default_spawn = "Cryogenic Storage"
 
 	station_name  = "Режим разработки"
@@ -105,3 +110,7 @@
 			RELIGION_TAOISM
 		)
 	)
+
+/obj/shuttle_landmark/oceanhotel/thal
+	name = "Thalassa Resort"
+	landmark_tag = "nav_thalassa_hotel"
