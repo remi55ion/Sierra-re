@@ -65,3 +65,4 @@
 #include "psionics/psionics_includes.dm"
 #include "impulse_cannon/_impulse_cannon_includes.dm"
 #include "rocket_launchers/_rocket_launchers_includes.dm"
+#include "oceanhotel/oceanhotel_includes.dm"
