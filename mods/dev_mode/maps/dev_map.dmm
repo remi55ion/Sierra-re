@@ -10,6 +10,10 @@
 /obj/item/gun/projectile/automatic,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"cRn" = (
+/obj/landmark,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
 "djw" = (
 /turf/simulated/floor/exoplanet/titan_water/middle,
 /area/centcom)
@@ -39,6 +43,12 @@
 /obj/item/gun/magnetic/railgun/tcc,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"itN" = (
+/obj/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom/holding)
 "jjy" = (
 /obj/item/artefact/svetlyak,
 /turf/simulated/floor/exoplanet/titan_water/middle,
@@ -73,6 +83,12 @@
 /area/centcom)
 "nyu" = (
 /obj/item/gun/projectile/automatic/mbr,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"oaH" = (
+/obj/landmark{
+	name = "Observer-Start"
+	},
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
 "odH" = (
@@ -110,6 +126,10 @@
 /obj/item/clothing/suit/space/void/security,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/liberia/atmos)
+"rdY" = (
+/obj/landmark/test/safe_turf,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
 "reO" = (
 /obj/item/gun/projectile/pistol/magnum_pistol,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
@@ -154,6 +174,12 @@
 /area/liberia/atmos)
 "xBf" = (
 /obj/item/gun/energy/lasercannon,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"xEf" = (
+/obj/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
 
@@ -227,9 +253,9 @@ cpC
 cpC
 cpC
 cpC
-cpC
-cpC
-cpC
+rdY
+rdY
+rdY
 cpC
 cpC
 cpC
@@ -255,7 +281,7 @@ cpC
 cpC
 cpC
 cpC
-cpC
+cRn
 cpC
 cpC
 cpC
@@ -279,10 +305,10 @@ dSB
 dSB
 dSB
 cpC
-cpC
-cpC
-cpC
-cpC
+itN
+xEf
+xEf
+cRn
 cpC
 cpC
 uzJ
@@ -305,10 +331,10 @@ djw
 djw
 dSB
 cpC
-cpC
-cpC
-cpC
-cpC
+itN
+xEf
+xEf
+oaH
 cpC
 cpC
 uzJ
@@ -461,9 +487,9 @@ dlo
 dlo
 cpC
 cpC
-cpC
-cpC
-cpC
+oaH
+oaH
+oaH
 cpC
 cpC
 cpC
